@@ -10,7 +10,7 @@ def initialize(emails)
 end
 
 def parse(emails)
-  emails.split(",".select{|email| email != ""}.uniq
+  emails.split(",").select{|email| email != ""}.uniq
   # email.split
 end
 

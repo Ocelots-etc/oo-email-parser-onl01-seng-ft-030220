@@ -10,7 +10,7 @@ def initialize(emails)
 end
 
 def parse
-  return
+  return @emails
   @emails.split(", ").uniq
 
 #   email_array = @email.split(/[, ]/).uniq

@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 def parse(emails)
-  
+
   # @emails.split(/,\s|\s/).collect do |address|
   #   address.split(',')
   # end

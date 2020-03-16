@@ -9,7 +9,7 @@ def initialize(email)
   @email = email
 end
 
-def parse
+def parse(email)
   # email.split
 end
 

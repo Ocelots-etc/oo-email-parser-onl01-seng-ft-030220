@@ -10,8 +10,7 @@ def initialize(email)
 end
 
 def parse
-  email.split.
-end
+  # email.split
 end
 
 end

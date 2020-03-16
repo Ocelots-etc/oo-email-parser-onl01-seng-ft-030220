@@ -10,8 +10,7 @@ def initialize(emails)
 end
 
 def parse
-  return @emails
-  @emails.split(", ").uniq
+  return @emails.split(", ").uniq
 
 #   email_array = @email.split(/[, ]/).uniq
 # email_array.reject! {|element| element.empty?}

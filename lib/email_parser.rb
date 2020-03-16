@@ -9,5 +9,4 @@ def parse
   return @emails.split(/,\s|\s/).uniq
 end
 
-
 end

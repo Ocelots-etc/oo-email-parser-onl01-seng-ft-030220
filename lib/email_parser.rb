@@ -12,5 +12,6 @@ end
 def parse
   email.split.
 end
+end
 
 end

@@ -11,8 +11,12 @@ def initialize(email)
   @email = email
 end
 
+def self.all
+  @@all
+end
+
 def parse
-  email.delete(',').split.uniq
+  email.split.
 end
 
 end
